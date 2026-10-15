@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build
+out/
+dist/
+release/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Test / coverage
+coverage/
+
+# Electron
+.electron-vite/
+
+# Local user data (dev)
+.nova-data/
